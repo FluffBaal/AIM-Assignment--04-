@@ -1,0 +1,89 @@
+# Parent directory files
+../02_Embeddings_and_RAG/
+../03_*/
+../01_*/
+../*.ipynb
+../*.py
+../*.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Data files
+*.csv
+*.xlsx
+*.json
+data/
+datasets/
+
+# Model files
+*.pkl
+*.pth
+*.h5
+*.ckpt
+models/
+checkpoints/
+
+# UV
+.venv/
+uv.lock
+
+# LangChain/LangSmith
+.langchain/
+.langsmith/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Cache
+.cache/
+__pycache__/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Documentation build
+docs/_build/
+site/
